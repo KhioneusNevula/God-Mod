@@ -7,10 +7,10 @@ import net.minecraft.util.ResourceLocation;
 
 public class ItemList {
 	
-	public static Item holy_book;
+	public static Item pyrite;
 	
 	public static void itemInit() {
-		ItemList.holy_book = new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(location("holy_book"));
+		pyrite = new Item(new Item.Properties().group(ItemGroup.MISC)).setRegistryName(location("fools_gold"));
 	}
 	
 	public static ResourceLocation location(String name) {

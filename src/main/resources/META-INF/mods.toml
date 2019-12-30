@@ -12,7 +12,7 @@ issueTrackerURL="http://my.issue.tracker/" #optional
 # A list of mods - how many allowed here is determined by the individual mod loader
 [[mods]] #mandatory
 # The modid of the mod
-modId="godmod" #mandatory
+modId="gm910godmod" #mandatory
 # The version number of the mod - there's a few well known ${} variables useable here or just hardcode it
 version="${file.jarVersion}" #mandatory
  # A display name for the mod
@@ -34,7 +34,7 @@ This mod is a mod where people can create their own gods and worship them and ma
 People will even be able to give their gods powers and afterlife systems
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
-[[dependencies.godmod]] #optional
+[[dependencies.gm910godmod]] #optional
     # the modid of the dependency
     modId="forge" #mandatory
     # Does this dependency have to exist - if not, ordering below must be specified
@@ -46,7 +46,7 @@ People will even be able to give their gods powers and afterlife systems
     # Side this dependency is applied on - BOTH, CLIENT or SERVER
     side="BOTH"
 # Here's another dependency
-[[dependencies.godmod]]
+[[dependencies.gm910godmod]]
     modId="minecraft"
     mandatory=true
     versionRange="[1.15.1]"
